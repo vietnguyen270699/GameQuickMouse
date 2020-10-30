@@ -25,6 +25,9 @@ public class ItemManager {
 		listCat1 = new ArrayList<Cat>();
 		listCat2 = new ArrayList<Cat>();
 		listCat3 = new ArrayList<Cat>();
+		listCat4 = new ArrayList<Cat>();
+		listCat5 = new ArrayList<Cat>();
+		listCat6 = new ArrayList<Cat>();	
 		score = 0;
 		heart = 3;
 
@@ -206,6 +209,7 @@ public class ItemManager {
 		for (int i = 0; i < listCake3.size(); i++) {
 			g.drawImage(cakeIcon.getImage(), listCake3.get(i).getX(), listCake3.get(i).getY(), 30, 30, null);
 		}
+
 		//vẽ cat
 		for (int i = 0; i < listCat1.size(); i++) {
 			g.drawImage(catIcon.getImage(), listCat1.get(i).getX(), listCat1.get(i).getY(), 50, 50, null);
